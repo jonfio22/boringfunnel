@@ -1,0 +1,5 @@
+export { AuthorityStack } from './authority-stack'
+export { ProblemSolution } from './problem-solution'
+export { Testimonials } from './testimonials'
+export { AboutSection } from './about-section'
+export { FAQ } from './faq'
