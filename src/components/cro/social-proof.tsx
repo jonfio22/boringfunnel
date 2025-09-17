@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, User, MapPin, Star, TrendingUp } from 'lucide-react'
 
@@ -86,18 +86,22 @@ export function SocialProofNotifications({
   className = ''
 }: SocialProofProps) {
   const [visibleNotifications, setVisibleNotifications] = useState<SocialProofNotification[]>([])
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const currentIndexRef = useRef(0)
+  const notificationCounterRef = useRef(0)
 
   useEffect(() => {
     const showNotification = () => {
       if (notifications.length === 0) return
 
-      const notification = notifications[currentIndex]
-      // Add unique timestamp to prevent duplicate keys
+      const notification = notifications[currentIndexRef.current]
+      // Use a counter to ensure truly unique IDs
+      const uniqueId = `notification-${notificationCounterRef.current}`
       const uniqueNotification = {
         ...notification,
-        id: `${notification.id}-${Date.now()}`
+        id: uniqueId
       }
+      
+      notificationCounterRef.current += 1
       
       setVisibleNotifications(prev => {
         const newNotifications = [uniqueNotification, ...prev].slice(0, maxVisible)
@@ -107,20 +111,24 @@ export function SocialProofNotifications({
       // Auto-remove notification after display duration
       setTimeout(() => {
         setVisibleNotifications(prev => 
-          prev.filter(n => n.id !== uniqueNotification.id)
+          prev.filter(n => n.id !== uniqueId)
         )
       }, displayDuration)
 
-      setCurrentIndex(prev => (prev + 1) % notifications.length)
+      currentIndexRef.current = (currentIndexRef.current + 1) % notifications.length
     }
 
-    const interval = setInterval(showNotification, showInterval)
+    // Show first notification after a delay
+    const firstTimeout = setTimeout(showNotification, 2000)
     
-    // Show first notification immediately
-    setTimeout(showNotification, 2000)
+    // Then show notifications at regular intervals
+    const interval = setInterval(showNotification, showInterval)
 
-    return () => clearInterval(interval)
-  }, [notifications, currentIndex, showInterval, displayDuration, maxVisible])
+    return () => {
+      clearTimeout(firstTimeout)
+      clearInterval(interval)
+    }
+  }, [notifications, showInterval, displayDuration, maxVisible])
 
   const positionClasses = {
     'bottom-left': 'bottom-4 left-4',
