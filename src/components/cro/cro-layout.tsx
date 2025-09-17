@@ -6,7 +6,6 @@ import {
   LazyMobileExitIntent,
   LazyStickyCTA,
   LazyScrollProgress,
-  LazySocialProofNotifications,
   SuspendedCROComponent
 } from './lazy-cro-components'
 
@@ -98,14 +97,6 @@ export function CROLayout({
         </SuspendedCROComponent>
       )}
 
-      {/* Social Proof Notifications */}
-      {enableSocialProof && (
-        <SuspendedCROComponent>
-          <LazySocialProofNotifications
-            position={socialProofConfig?.position}
-          />
-        </SuspendedCROComponent>
-      )}
     </>
   )
 }

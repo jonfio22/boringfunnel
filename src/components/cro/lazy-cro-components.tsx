@@ -65,13 +65,6 @@ export const LazyScrollProgress = dynamic(
   }
 )
 
-export const LazySocialProofNotifications = dynamic(
-  () => import('./social-proof').then(mod => ({ default: mod.SocialProofNotifications })),
-  {
-    ssr: false,
-    loading: () => <CROLoadingSpinner />,
-  }
-)
 
 export const LazyCountdownTimer = dynamic(
   () => import('./countdown-timer').then(mod => ({ default: mod.CountdownTimer })),

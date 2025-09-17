@@ -70,26 +70,11 @@ const Footer = dynamic(() => import('@/components/layout/footer').then(mod => ({
 export default function Home() {
   return (
     <CROLayout
-      enableExitIntent={true}
-      enableMobileExitIntent={true}
-      enableStickyCTA={true}
+      enableExitIntent={false}
+      enableMobileExitIntent={false}
+      enableStickyCTA={false}
       enableScrollProgress={true}
-      enableSocialProof={true}
-      useDiaStyleModal={true}
-      exitIntentConfig={{
-        title: "Wait! Get Your Free Guide",
-        subtitle: "Don't miss out on our comprehensive funnel optimization guide",
-        offerText: "Download our free 25-page guide and get actionable tips to increase your conversions by 40%",
-        buttonText: "Get My Free Guide"
-      }}
-      stickyCTAConfig={{
-        text: "Ready to boost your conversions?",
-        buttonText: "Start Free Trial",
-        href: "#cta"
-      }}
-      socialProofConfig={{
-        position: "bottom-right"
-      }}
+      enableSocialProof={false}
     >
       <div className="min-h-screen">
         <UrgencyBanner 
