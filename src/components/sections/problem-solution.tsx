@@ -5,47 +5,47 @@ import { Container } from '@/components/ui/container'
 
 const problems = [
   {
-    icon: '💸',
-    title: 'Undervaluing Your Skills',
-    description: 'You\'re charging way less than you\'re worth because you don\'t know how to position yourself as an expert.'
-  },
-  {
-    icon: '🔍',
-    title: 'No Clear Path to Monetization',
-    description: 'You have the skills but don\'t know where to start or what services to offer that actually sell.'
+    icon: '🚨',
+    title: 'AI Anxiety Paralysis',
+    description: 'You\'re hearing about AI everywhere but don\'t know where to start without getting overwhelmed or wasting time on theory.'
   },
   {
     icon: '⏰',
-    title: 'Trading Time for Money',
-    description: 'You\'re stuck in the hourly billing trap with no way to scale your income beyond more hours.'
+    title: 'Fear of Being Left Behind',
+    description: 'Every day you wait, AI gets more advanced and the gap between you and those who "get it" grows wider.'
   },
   {
     icon: '🎯',
-    title: 'Can\'t Find Quality Clients',
-    description: 'You\'re tired of working with clients who don\'t value quality work and constantly negotiate prices.'
+    title: 'No Practical Experience',
+    description: 'You\'ve watched demos and read articles, but you\'ve never actually BUILT something with AI that you could use.'
+  },
+  {
+    icon: '💸',
+    title: 'Expensive Learning Curve',
+    description: 'Quality AI education costs thousands, and you\'re not sure if it\'s worth the investment or if you\'ll even succeed.'
   }
 ]
 
 const solutions = [
   {
-    icon: '💎',
-    title: 'Premium Positioning Strategy',
-    description: 'Learn to position yourself as a premium expert and command 3-5x higher rates immediately.'
-  },
-  {
-    icon: '📈',
-    title: 'Scalable Revenue Streams',
-    description: 'Build products, courses, and services that generate income while you sleep.'
-  },
-  {
     icon: '🎯',
-    title: 'Ideal Client Attraction',
-    description: 'Attract high-value clients who appreciate quality and pay premium prices without negotiation.'
+    title: 'Build Real Solutions, Not Toy Examples',
+    description: 'You\'ll create a working AI agent that solves an actual problem - something you can immediately use or improve upon.'
   },
   {
-    icon: '🚀',
-    title: 'Proven System & Framework',
-    description: 'Follow our battle-tested system that\'s helped 50,000+ developers build profitable businesses.'
+    icon: '🎓',
+    title: 'Learn with Expert Guidance, Not Alone',
+    description: 'Get direct access to AI practitioners who\'ve built real systems, plus 90 days of support to ensure your success.'
+  },
+  {
+    icon: '📋',
+    title: 'Templates & Best Practices Included',
+    description: 'Receive proven frameworks, code templates, and implementation guides worth $2,000+ - yours to keep forever.'
+  },
+  {
+    icon: '🤝',
+    title: 'Join a Community of AI Builders',
+    description: 'Connect with 99 other motivated professionals and 5 business sponsors who believe in practical AI education.'
   }
 ]
 
@@ -62,13 +62,13 @@ export function ProblemSolution() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Are You Tired of Being the 
-            <span className="text-destructive"> &ldquo;Cheap&rdquo; </span>
-            Developer?
+            Are You Watching 
+            <span className="text-destructive">AI Replace Jobs</span>
+            While Feeling Powerless to Adapt?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
-            You have incredible technical skills, but you&apos;re struggling to turn them into the income you deserve. 
-            Sound familiar?
+            You see AI transforming every industry, but you&apos;re stuck on the sidelines, 
+            unsure how to get started. Here&apos;s what&apos;s holding you back:
           </p>
         </motion.div>
 
@@ -106,13 +106,13 @@ export function ProblemSolution() {
             <div className="text-2xl">💡</div>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Here&apos;s How We 
-            <span className="text-primary"> Transform </span>
-            Your Career
+            Here&apos;s How We Transform 
+            <span className="text-primary">AI Anxiety Into AI Confidence</span>
+            in Just 3 Days
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Stop leaving money on the table. Our proven system helps developers like you build profitable, 
-            scalable businesses around their expertise.
+            Stop watching from the sidelines. Our hands-on workshop gives you the practical skills 
+            and confidence to build real AI solutions that work.
           </p>
         </motion.div>
 

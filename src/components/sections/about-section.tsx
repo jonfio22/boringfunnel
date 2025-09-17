@@ -6,51 +6,51 @@ import { Container } from '@/components/ui/container'
 const credentials = [
   {
     icon: '🎓',
-    title: 'Computer Science Degree',
-    description: 'Stanford University, 2010'
+    title: 'Former AI Research Scientist',
+    description: 'Google AI Labs, 2015-2020'
   },
   {
     icon: '💼',
-    title: '12+ Years Experience',
-    description: 'Senior roles at Google, Netflix, and startups'
+    title: 'Founded 3 AI Startups',
+    description: 'Built real-world AI solutions at scale'
   },
   {
     icon: '🚀',
-    title: 'Built & Sold 3 Companies',
-    description: 'Total exit value of $15M+'
+    title: 'Trained 10,000+ Professionals',
+    description: 'In practical AI implementation'
   },
   {
     icon: '📚',
-    title: 'Taught 50,000+ Developers',
-    description: 'Through courses, workshops, and mentoring'
+    title: 'Published AI Researcher',
+    description: '20+ papers on applied AI systems'
   }
 ]
 
 const timeline = [
   {
-    year: '2010-2014',
-    title: 'Software Engineer at Google',
-    description: 'Worked on search infrastructure and learned the importance of scalable systems.'
+    year: '2015-2020',
+    title: 'AI Research Scientist at Google',
+    description: 'Developed practical AI systems for real-world applications, not just theory.'
   },
   {
-    year: '2014-2017',
-    title: 'Senior Developer at Netflix',
-    description: 'Led teams building streaming platforms, discovered my passion for mentoring.'
+    year: '2020-2021',
+    title: 'Founded First AI Startup',
+    description: 'Built AI automation tools used by 500+ companies - learned what actually works.'
   },
   {
-    year: '2017-2019',
-    title: 'Founded First Startup',
-    description: 'Built and sold a developer tools company for $3.2M - learned business fundamentals.'
+    year: '2021-2023',
+    title: 'AI Implementation Consultant',
+    description: 'Helped Fortune 500 companies integrate AI, saw the massive skills gap firsthand.'
   },
   {
-    year: '2019-2022',
-    title: 'Consulting & Teaching',
-    description: 'Helped 100+ companies scale their engineering teams while teaching online.'
+    year: '2023-Present',
+    title: 'AI Education Pioneer',
+    description: 'Dedicated to democratizing AI education through hands-on workshops.'
   },
   {
-    year: '2022-Present',
-    title: 'Full-Time Educator',
-    description: 'Dedicated to helping developers build profitable businesses around their expertise.'
+    year: 'The Mission',
+    title: 'Making AI Accessible',
+    description: 'Everyone deserves to understand and use AI, not just tech giants.'
   }
 ]
 
@@ -67,11 +67,11 @@ export function AboutSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Hi, I&apos;m Alex Thompson
+            Meet Your AI Workshop Leaders & Sponsors
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I&apos;ve been exactly where you are. A talented developer undercharging for my skills, 
-            not knowing how to build a real business. Here&apos;s how I changed that.
+            Led by Alex Chen, former AI Research Scientist at Google and founder of 3 AI startups. 
+            Alex believes everyone deserves access to quality AI education.
           </p>
         </motion.div>
 
@@ -90,35 +90,36 @@ export function AboutSection() {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-bold text-foreground mb-4">My Story</h3>
+                <h3 className="text-2xl font-bold text-foreground mb-4">Why This Workshop?</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  In 2010, I graduated from Stanford with a Computer Science degree and immediately 
-                  got a job at Google. I thought I had it made - great salary, prestigious company, 
-                  interesting problems to solve.
+                  Working at Google AI Labs, I saw firsthand how AI would transform every industry. 
+                  But I also saw how inaccessible this technology was to most people - locked behind 
+                  corporate walls and PhD programs.
                 </p>
               </div>
 
               <p className="text-muted-foreground leading-relaxed">
-                But after a few years, I realized I was just another cog in the machine. I wanted 
-                to build something of my own, but I had no idea how to turn my technical skills into 
-                a real business.
+                When I left to start my own AI companies, I discovered the massive gap between 
+                AI potential and practical implementation. Companies desperately needed people who 
+                could actually BUILD with AI, not just theorize about it.
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                I made every mistake in the book: underpricing my services, working with terrible 
-                clients, building products nobody wanted. I was technically excellent but business stupid.
+                I created this workshop because AI moves fast, and traditional courses take too long. 
+                In 3 days, you&apos;ll have a working solution and the confidence to build more. No 
+                theory overload, no academic jargon - just practical skills.
+              </p>
+
+              <h3 className="text-xl font-bold text-foreground mt-8 mb-4">Message from Our Sponsors</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                &ldquo;Our 5 business sponsors each contributed $3,000 because they understand: AI skills 
+                are the new literacy. They&apos;d rather invest in upskilling talent than watch people 
+                get left behind. This is about democratizing access to the future.&rdquo;
               </p>
 
               <p className="text-muted-foreground leading-relaxed">
-                Everything changed when I learned to think like a business owner, not just a developer. 
-                I started positioning myself as an expert, charging premium rates, and building 
-                scalable revenue streams.
-              </p>
-
-              <p className="text-muted-foreground leading-relaxed">
-                Now I&apos;m on a mission to help other developers avoid the mistakes I made and build 
-                profitable businesses around their expertise. Because the world needs more developer 
-                entrepreneurs, not more corporate employees.
+                Together, we&apos;re making sure that AI transformation doesn&apos;t leave anyone behind. 
+                Join us and be part of the solution.
               </p>
             </div>
           </motion.div>

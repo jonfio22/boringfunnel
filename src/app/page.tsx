@@ -78,7 +78,7 @@ export default function Home() {
     >
       <div className="min-h-screen">
         <UrgencyBanner 
-          message="Limited time: 50% off all plans"
+          message="⚠️ Only 100 FREE spots available - Workshop starts soon"
           countdown={true}
           minutes={30}
         />

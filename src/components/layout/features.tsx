@@ -4,34 +4,34 @@ import { motion } from 'framer-motion'
 
 const features = [
   {
-    title: 'Lightning Fast',
-    description: 'Built with Next.js 14 and optimized for performance. Your landing page loads instantly.',
+    title: 'Hands-On AI Agent Building',
+    description: 'No theory overload. You\'ll build a complete AI solution from scratch using industry-standard tools and frameworks.',
+    icon: '🏗️',
+  },
+  {
+    title: 'Comprehensive Resource Library',
+    description: 'Access our complete AI toolkit: templates, best practices guide, implementation checklists, and troubleshooting resources.',
+    icon: '📚',
+  },
+  {
+    title: '90 Days of Expert Support',
+    description: 'Don\'t get stuck after the workshop. Get direct access to our AI practitioners for three full months.',
+    icon: '👥',
+  },
+  {
+    title: 'Real-World Application Focus',
+    description: 'Build something you\'ll actually use - whether for your current role, side project, or business opportunity.',
+    icon: '🎯',
+  },
+  {
+    title: 'Exclusive AI Builder Community',
+    description: 'Join an ongoing community of workshop graduates, sponsors, and mentors for continued learning and opportunities.',
+    icon: '🤝',
+  },
+  {
+    title: 'Zero Setup Frustration',
+    description: 'We handle all the technical setup. You focus on learning and building, not fighting with installation issues.',
     icon: '⚡',
-  },
-  {
-    title: 'Mobile First',
-    description: 'Responsive design that looks perfect on all devices. Mobile conversion optimized.',
-    icon: '📱',
-  },
-  {
-    title: 'SEO Optimized',
-    description: 'Built-in SEO best practices and meta tags to help you rank higher in search results.',
-    icon: '🔍',
-  },
-  {
-    title: 'Analytics Ready',
-    description: 'Google Analytics integration and conversion tracking built-in from day one.',
-    icon: '📊',
-  },
-  {
-    title: 'Type Safe',
-    description: 'Built with TypeScript for better developer experience and fewer runtime errors.',
-    icon: '🛡️',
-  },
-  {
-    title: 'Easy to Customize',
-    description: 'Clean, well-organized code that makes customization and maintenance a breeze.',
-    icon: '🎨',
   },
 ]
 
@@ -47,10 +47,10 @@ export function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Everything You Need to Convert
+            Everything You Need to Become AI-Confident
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our landing page template comes with all the features you need to build a high-converting page for your technical product or service.
+            Worth $5,000+, yours completely FREE thanks to our generous sponsors. Here\'s everything included in your workshop experience:
           </p>
         </motion.div>
 

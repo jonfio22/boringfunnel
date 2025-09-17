@@ -6,44 +6,44 @@ import { Container } from '@/components/ui/container'
 
 const faqs = [
   {
-    question: "I'm already a good developer. Why do I need this?",
-    answer: "Being a great developer and building a profitable business are two completely different skills. You can write amazing code but still struggle to find high-paying clients, price your services correctly, or scale beyond trading time for money. This system teaches you the business side that no one teaches in coding bootcamps or computer science degrees."
+    question: "I have zero AI experience. Will I be able to keep up?",
+    answer: "Absolutely! This workshop is designed for beginners. We start from basics and build up systematically. Plus, you get 90 days of support to ask questions and get help. Many of our most successful participants started with no AI background at all."
   },
   {
-    question: "How is this different from other business courses?",
-    answer: "Most business courses are generic and don't understand the unique challenges developers face. Our system is built specifically for technical people - we speak your language, understand your mindset, and address the specific objections and challenges you face when transitioning from employee to entrepreneur."
+    question: "What if I can't attend all 3 days?",
+    answer: "All sessions are recorded and you'll get lifetime access. However, we strongly recommend attending live for the hands-on building experience and real-time support. The workshop is intensive and builds on each day's progress."
   },
   {
-    question: "I don't have time to build a side business. Will this work for me?",
-    answer: "Actually, most of our successful members started while working full-time jobs. The framework is designed to be implemented in just 2-3 hours per week. We focus on high-impact activities that move the needle, not busy work. Many members see results within the first 30 days."
+    question: "What kind of AI agent will I build?",
+    answer: "You'll choose from 5 proven project types based on your interests: customer service assistant, content research agent, data analysis helper, lead qualification bot, or process automation agent. Each comes with templates and step-by-step guidance."
   },
   {
-    question: "What if I'm not sure what services to offer?",
-    answer: "That's exactly what we help you figure out! The course includes a detailed skill audit and market opportunity analysis to help you identify your most profitable skills and how to package them into services that clients actually want to buy. You'll have complete clarity on your positioning within the first week."
+    question: "Is this really completely free? What's the catch?",
+    answer: "Yes, completely free. The 5 business sponsors covered all costs because they believe in democratizing AI education. No upsells, no hidden fees, no catch. They see AI skills as essential for the future workforce."
   },
   {
-    question: "I'm not good at sales or marketing. Can I still succeed?",
-    answer: "Most developers think they're bad at sales because they've been trying to sell like a salesperson instead of an expert. We teach you how to attract clients through expertise and authority, not pushy sales tactics. When you're positioned correctly, clients come to you already wanting to work with you."
+    question: "What happens after the 90-day support period?",
+    answer: "You keep all materials forever and remain in our graduate community. Many participants continue collaborating and sharing resources long after the official support ends. Plus, sponsors often offer opportunities to top performers."
   },
   {
-    question: "What if I live outside the US? Will this work internationally?",
-    answer: "Absolutely! We have successful members in over 40 countries. The strategies work anywhere there's internet access. In fact, many of our international members have an advantage because they can offer premium services at competitive rates while building global client relationships."
+    question: "How do I know this isn't just basic AI theory?",
+    answer: "By day 3, you'll have a working AI solution deployed and functional. We focus 80% on building and 20% on necessary theory. Every participant leaves with something they built themselves that actually works."
   },
   {
-    question: "How quickly can I see results?",
-    answer: "Many members see their first results within 30 days - whether that's landing a better client, raising their rates, or launching their first digital product. However, building a sustainable business typically takes 3-6 months of consistent implementation. We provide both quick wins and long-term strategies."
+    question: "What tools or software do I need?",
+    answer: "Just a laptop and internet connection. We provide access to all necessary AI tools and platforms during the workshop. No expensive software subscriptions or powerful computers required."
   },
   {
-    question: "What if I try this and it doesn't work for me?",
-    answer: "We offer a 60-day money-back guarantee. If you implement the strategies and don't see measurable progress in your income or business, we'll refund every penny. We're that confident in our system because we've seen it work for thousands of developers just like you."
+    question: "Who are the 5 business sponsors?",
+    answer: "Five forward-thinking business owners from various industries who each contributed $3,000 to make this workshop free. They believe practical AI skills shouldn't be gatekept and want to help 100 professionals get ahead."
   },
   {
-    question: "Do I need to quit my job to start?",
-    answer: "Not at all! We actually recommend keeping your job while you build your business on the side. This removes financial pressure and allows you to be selective with clients. Most members transition gradually, and many choose to stay employed while running profitable side businesses."
+    question: "Can I really build something useful in just 3 days?",
+    answer: "Yes! We've designed the workshop around proven, practical projects. You won't become an AI expert overnight, but you'll have a working foundation and the skills to build upon it. Many graduates expand their projects into full solutions."
   },
   {
-    question: "Is this just about freelancing or can I build products too?",
-    answer: "Both! The framework covers multiple monetization strategies: premium consulting, digital products, online courses, SaaS development, and more. You'll learn how to choose the right strategy for your goals and how to potentially stack multiple revenue streams over time."
+    question: "What if I get stuck after the workshop?",
+    answer: "That's what the 90-day support is for! You can ask questions, get code reviews, and receive guidance as you implement and expand your AI solution. We're committed to your success beyond just the workshop days."
   }
 ]
 

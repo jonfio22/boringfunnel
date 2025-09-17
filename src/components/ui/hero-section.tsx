@@ -116,11 +116,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground mb-6 min-h-[1.2em]"
             style={{ lineHeight: '1.1' }}
           >
-            From Developer to{" "}
+            How to Build Your First Working{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              $100K Digital Product Creator
+              AI Agent Without Fear
             </span>{" "}
-            in 12 Months
+            of Getting Left Behind
           </motion.h1>
           
           {/* Subheadline */}
@@ -130,7 +130,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl lg:text-2xl text-muted-foreground mb-4 font-medium"
           >
-            (Without Abandoning Your Code)
+            (100% FREE - Sponsored by 5 Forward-Thinking Business Owners)
           </motion.p>
 
           {/* Supporting text */}
@@ -140,8 +140,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             transition={{ duration: 0.8, delay: 0.3 }}
             className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed"
           >
-            Learn the exact framework that helped 500+ developers build profitable 
-            digital products while keeping their day jobs. No fluff, just proven systems.
+            Join the ONLY hands-on AI workshop where you'll build a working AI solution in 3 days, 
+            get 90 days of expert support, and transform from "AI anxious" to "AI confident" - 
+            while learning alongside 99 other ambitious professionals.
           </motion.p>
 
           {/* Social Proof Metrics */}
@@ -151,10 +152,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-wrap justify-center gap-8 md:gap-12 mb-12"
           >
-            <MetricBadge value="500+" label="Developers Helped" delay={0.5} />
-            <MetricBadge value="$2.3M+" label="Revenue Generated" delay={0.6} />
-            <MetricBadge value="85%" label="Success Rate" delay={0.7} />
-            <MetricBadge value="12mo" label="Avg. Time to $100K" delay={0.8} />
+            <MetricBadge value="100 Spots" label="Fully Sponsored" delay={0.5} />
+            <MetricBadge value="$15,000" label="Total Investment" delay={0.6} />
+            <MetricBadge value="3 Days" label="Hands-On Building" delay={0.7} />
+            <MetricBadge value="90 Days" label="Support Included" delay={0.8} />
           </motion.div>
 
           {/* Email Capture Form */}
@@ -224,7 +225,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                       <span aria-hidden="true">Joining...</span>
                     </>
                   ) : (
-                    "Get Free Guide"
+                    "Claim Your FREE Spot"
                   )}
                 </Button>
                 <p id="submit-help" className="sr-only">
@@ -258,17 +259,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           >
             <TrustIndicator 
               icon={checkIcon}
-              text="No spam, unsubscribe anytime" 
+              text="No hidden costs - completely free" 
               delay={0.7}
             />
             <TrustIndicator 
               icon={checkIcon}
-              text="7-day free email course" 
+              text="Build a real AI solution you'll use" 
               delay={0.8}
             />
             <TrustIndicator 
               icon={checkIcon}
-              text="Join 10,000+ developers" 
+              text="Templates & resources included forever" 
               delay={0.9}
             />
           </motion.div>

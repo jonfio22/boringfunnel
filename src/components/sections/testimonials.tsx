@@ -6,57 +6,57 @@ import { Container } from '@/components/ui/container'
 const testimonials = [
   {
     name: 'Sarah Chen',
-    role: 'Full-Stack Developer',
-    company: 'Ex-Google',
+    role: 'Marketing Manager',
+    company: 'Tech Startup',
     avatar: '/images/avatars/sarah.jpg',
-    content: 'I went from charging $50/hour to $200/hour in just 3 months. The positioning strategies alone paid for the course 10x over. Now I have a waiting list of clients.',
-    result: '$50/hr → $200/hr',
-    timeframe: '3 months'
+    content: 'I went from AI-terrified to AI-powered in 3 days. The agent I built now handles 80% of my content research, saving me 15 hours per week.',
+    result: '15 hours/week saved',
+    timeframe: '3 days'
   },
   {
     name: 'Marcus Rodriguez',
-    role: 'React Specialist',
-    company: 'Freelancer',
+    role: 'Operations Director',
+    company: 'E-commerce',
     avatar: '/images/avatars/marcus.jpg',
-    content: 'Built my first $10k product after following the framework. The step-by-step guidance made it so much easier than trying to figure it out alone.',
-    result: '$10k first product',
-    timeframe: '6 months'
+    content: 'Built an AI assistant that streamlined our customer support. ROI was immediate and impressive. The 90-day support helped me scale it further.',
+    result: '40% faster response times',
+    timeframe: '1 week implementation'
   },
   {
-    name: 'Alex Kim',
-    role: 'DevOps Engineer',
-    company: 'Ex-Amazon',
-    avatar: '/images/avatars/alex.jpg',
-    content: 'The client attraction strategies are pure gold. I now work with 3 high-value clients who never negotiate on price and respect my expertise.',
-    result: '3 premium clients',
-    timeframe: '4 months'
-  },
-  {
-    name: 'Emma Thompson',
-    role: 'Frontend Developer',
-    company: 'Remote',
-    avatar: '/images/avatars/emma.jpg',
-    content: 'Launched my SaaS product and hit $5k MRR within 8 months. The product development framework saved me from so many common mistakes.',
-    result: '$5k MRR SaaS',
-    timeframe: '8 months'
+    name: 'Dr. Lisa Thompson',
+    role: 'Business Consultant',
+    company: 'Independent',
+    avatar: '/images/avatars/lisa.jpg',
+    content: 'The 90-day support was crucial. My workshop project became a client-ready solution worth $25K. Best investment of time I\'ve ever made.',
+    result: 'New $25K revenue stream',
+    timeframe: '2 months'
   },
   {
     name: 'David Park',
-    role: 'Mobile Developer',
-    company: 'Consultant',
+    role: 'Software Developer',
+    company: 'Fortune 500',
     avatar: '/images/avatars/david.jpg',
-    content: 'Went from stressed freelancer to confident consultant. Now I work 30 hours a week and make 3x more than my old full-time job.',
-    result: '3x income, 30hr weeks',
-    timeframe: '5 months'
+    content: 'Finally understood how to implement AI practically. Now I\'m the go-to AI person at my company. Got promoted with a 30% raise.',
+    result: 'Promotion + 30% raise',
+    timeframe: '3 months'
   },
   {
-    name: 'Lisa Anderson',
-    role: 'Python Developer',
-    company: 'Course Creator',
-    avatar: '/images/avatars/lisa.jpg',
-    content: 'Created my first online course and made $25k in the first launch. The course creation framework made the whole process so much less overwhelming.',
-    result: '$25k course launch',
-    timeframe: '7 months'
+    name: 'Emma Wilson',
+    role: 'Product Manager',
+    company: 'SaaS Company',
+    avatar: '/images/avatars/emma.jpg',
+    content: 'The templates alone were worth thousands. Built an AI feature for our product that increased user engagement by 50%.',
+    result: '50% engagement boost',
+    timeframe: '1 month'
+  },
+  {
+    name: 'Alex Kumar',
+    role: 'Freelancer',
+    company: 'Self-Employed',
+    avatar: '/images/avatars/alex.jpg',
+    content: 'Transformed my freelance business with AI automation. Now handling 3x more clients with less stress. Game-changing workshop.',
+    result: '3x client capacity',
+    timeframe: '6 weeks'
   }
 ]
 
@@ -77,10 +77,10 @@ export function Testimonials() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Real Results from Real Developers
+            Real Results from Previous AI Workshop Graduates
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Join thousands of developers who&apos;ve transformed their careers and built profitable businesses.
+            Every participant leaves with a working AI solution. Here&apos;s what some of them built and achieved:
           </p>
           
           {/* Social Proof Companies */}

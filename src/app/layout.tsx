@@ -14,19 +14,19 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'BoringFunnel - From Developer to $100K Digital Product Creator',
-    template: '%s | BoringFunnel'
+    default: 'Free AI Workshop - Build Your First AI Agent in 3 Days (100 Spots Only)',
+    template: '%s | AI Workshop'
   },
-  description: 'Learn the exact framework that helped 500+ developers build profitable digital products while keeping their day jobs. Join 10,000+ developers in our proven system.',
+  description: 'Join the ONLY hands-on AI workshop where you\'ll build a working AI solution in 3 days. 100% FREE - Sponsored by 5 business owners. Includes 90 days support, templates, and resources.',
   keywords: [
-    'developer income',
-    'digital products',
-    'technical creators', 
-    'developer side projects',
-    'passive income for developers',
-    'coding bootcamp',
-    'developer business',
-    'SaaS for developers'
+    'AI workshop',
+    'free AI training',
+    'build AI agent', 
+    'AI for beginners',
+    'practical AI education',
+    'AI bootcamp',
+    'learn AI development',
+    'AI implementation'
   ],
   authors: [{ name: 'BoringFunnel Team', url: 'https://boringfunnel.com' }],
   creator: 'BoringFunnel',

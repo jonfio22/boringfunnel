@@ -13,11 +13,11 @@ export function Footer() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">D</span>
               </div>
-              <span className="text-xl font-bold text-foreground">DeveloperSuccess</span>
+              <span className="text-xl font-bold text-foreground">AI Workshop</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Empowering developers to build profitable businesses around their expertise. 
-              Join 50,000+ developers who&apos;ve transformed their careers with our proven system.
+              Democratizing AI education through hands-on, practical workshops. 
+              Sponsored by forward-thinking business leaders who believe everyone deserves access to AI skills.
             </p>
             
             {/* Trust Badges */}
@@ -25,15 +25,15 @@ export function Footer() {
               <div className="flex items-center space-x-4 text-xs text-muted-foreground">
                 <div className="flex items-center space-x-1">
                   <span className="text-green-500">🔒</span>
-                  <span>SSL Secured</span>
+                  <span>Your spot is guaranteed once claimed</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <span className="text-blue-500">⚡</span>
-                  <span>Fast Support</span>
+                  <span>Expert instructors and ongoing support</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <span className="text-purple-500">💰</span>
-                  <span>60-Day Guarantee</span>
+                  <span>$15,000 total investment by sponsors</span>
                 </div>
               </div>
             </div>
